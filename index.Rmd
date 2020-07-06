@@ -41,7 +41,7 @@ Encuesta de Expectativas Macroeconómicas</h2>
 <!-- Redancción -->
 <div class="left first">
 
-En el mes de junio, las expectativas de inflación para fin de año muestran signos de estabilidad respecto al mes anterior, con un promedio de 2.3% y una distribución similar a la registrada en mayo (ver primer gráfico). Con este resultado, las expectativas de inflación para el 2020 se mantienen por debajo del rango de meta establecido.
+En el mes de junio, las expectativas de inflación para fin de año muestran signos de estabilidad respecto al mes anterior, con un promedio de 2.3% y una distribución similar a la registrada en mayo (ver primer gráfico). Con este resultado, las expectativas de inflación para el 2020 se mantienen por debajo del rango de meta de 4% +/- 1%.
 
 </div>
 
@@ -53,7 +53,7 @@ plt_boxplot_inflacion_diciembre2020
 </div>
 
 <div class="left secondl">
-Por otro lado, para el horizonte de 12 y 24 meses las expectativas medianas de inflación se colocan en 3.0% y 3.5%, respectivamente. En ambos horizontes la existencias de valores atípicos sesgan positivamente la distribución, resultando en promedios de 3.4% y 3.8%.
+Por otro lado, para el horizonte de 12 y 24 meses la madiana de las expectativas de inflación se colocan en 3.0% y 3.5%, respectivamente. En ambos horizontes la existencias de valores atípicos sesgan positivamente la distribución, resultando en promedios de 3.4% y 3.8%.
 
 Que las expectativas se mantengan ancladas a la meta de inflación en horizontes de más largo plazo denota confianza en la estabilidad macroeconómica a pesar del choque que afronta el país por la pandemia del COVID-19.
 </div>
@@ -79,7 +79,7 @@ ptl_desviacion_inflacion %>%
 
 Los analistas esperan que el tipo de cambio cierre el 2020 al RD$60.8 por cada dólar, para una depreciación implícita interanual promedio de 14.8%.
 
-De igual forma, para el final del 2021 y a junio del 2022 la depreciación interanual esperada rondaría el 5.0%, al colocar sus expectativas en 4.99% y 5.2%, respectivamente. Estos resultados sugieren que se reducirán las presiones alcistas del tipo de cambio y que este retornaría gradualmente a sus niveles prepandemia.
+De igual forma, para el final del 2021 y a junio del 2022 la depreciación interanual esperada rondaría el 5.0%, al colocar sus expectativas en 4.99% y 5.2%, respectivamente. Estos resultados sugieren que se reducirán las presiones alcistas del tipo de cambio y que la depreciación retornaría gradualmente a sus niveles prepandemia.
 </div>
 
 <div class="right first">
@@ -121,7 +121,7 @@ El promedio de las expectativas de crecimiento para el 2021 pasó de 5.1% en ene
 <div class="right">
 #### Evolución de las expectativas de crecimiento 
 ```{r animation_pib, fig.width=5.5, fig.height=3.8}
-#gganimate::animate(animation_crecimiento, height = 4, width = 5.5, units = "in", res = 120)
+gganimate::animate(animation_crecimiento, height = 4, width = 5.5, units = "in", res = 120)
 ```
 </div>
 </div>
@@ -158,7 +158,7 @@ distribucion_cumulada_tpm +
 <div class="covid-container">
 <div class="left">
 
-En las últimas ediciones de la EEM se han incluido preguntas con la finalidad de captar las expectativas de los analistas respecto a la desviación de variables macroeconómicas importantes ante el choque generado por la pandemia del COVID19.
+En las últimas ediciones de la EEM se han incluido preguntas con la finalidad de captar las expectativas de los analistas respecto a la desviación de variables macroeconómicas importantes ante el choque generado por la pandemia del COVID-19.
 
 Se preguntó a los participantes sobre la dirección y el tiempo estimado de recuperación de las variables. Los analistas esperan desviaciones coherentes con episodios de desaceleración económica, siendo más informativa la duración esperada de los desequilibrios.
 
@@ -174,4 +174,4 @@ tiempo_recuperacion_eem
 </div>
 </div>
 
-Comparado con los resultados de mayo, no se registraron variaciones importantes en la opinión de los analistas.
+Salvo para la inversión extranjera, nos se registraron variaciones importantes en la opinión de los analistas respecto a los tiempos de recuperación de las variables.
