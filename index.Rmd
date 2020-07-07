@@ -54,7 +54,7 @@ plt_boxplot_inflacion_diciembre2020
 
 <div class="left secondl">
 
-Por otro lado, para el horizonte de 12 y 24 meses la mediana de las expectativas de inflación se colocan en 3.0% y 3.5%, respectivamente. En ambos horizontes la existencia de valores atípicos sesgan positivamente la distribución, resultando en promedios de 3.4% y 3.8%.
+Por otro lado, para el horizonte de 12 y 24 meses la mediana de las expectativas de inflación se coloca en 3.0% y 3.5%, respectivamente. En ambos horizontes la existencia de valores atípicos sesga positivamente la distribución, resultando en promedios de 3.4% y 3.8%.
 
 Que las expectativas se mantengan ancladas a la meta de inflación en horizontes de más largo plazo denota confianza en la estabilidad macroeconómica a pesar del choque que afronta el país por la pandemia del COVID-19.
 
@@ -94,7 +94,7 @@ plt_depreciacion %>%
 </div>
 
 <div class="left second">
-Era de esperarse que la evolución reciente del tipo de cambio afectase de manera proporcional los pronósticos de los analistas, verificándose esto en la forma de las curvas de las expectativas y del dato observado. Ahora bien, en el mes de junio se rompió esa interacción y las expectativas interanuales registran una disminución, pasando de RD\$62.7 en mayo a RD\$62.44 hacia junio del 2021. Esta disminución, sumada a la evolución reciente de la variable, provocaron una reducción de la depreciación interanual implícita, que pasó de 9.9% a 6.3%.
+Era de esperarse que la evolución reciente del tipo de cambio afectase de manera proporcional los pronósticos de los analistas, verificándose esto en la forma de las curvas de las expectativas y del dato observado. Ahora bien, en el mes de junio esa interacción parece haberse roto, y las expectativas interanuales registran una disminución, pasando de RD\$62.7 en mayo a RD\$62.44 hacia junio del 2021. Esta disminución, sumada a la evolución reciente de la variable, provocaron una reducción de la depreciación interanual implícita, que pasó de 9.9% a 6.3%.
 
 </div>
 
